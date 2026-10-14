@@ -222,10 +222,11 @@ Dashboard satu halaman dengan alur baca dari ringkasan ke detail:
 ├── README.md
 ├── data/
 │   ├── HR_Employee_Attrition_RAW_DIRTY.csv
-│   └── HR_Employee_Attrition_Dashboard.xlsx
-├── docs/
-│   ├── data_cleaning_documentation.md
-│   └── HR_Attrition_Business_Insight.md
+│   └── hr_employee_analytics.xlsx
+├── preprocessing/
+│   ├── before_cleaning
+│   └── process_cleaning
+|   └── after_cleaning
 └── images/
     ├── dashboard_full.png
     └── cleaning_before_after.png
