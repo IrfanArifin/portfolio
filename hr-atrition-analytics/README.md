@@ -80,36 +80,8 @@ Setelah cleaning, dilakukan **descriptive statistics** (Count, Mean, Std Dev, Mi
 
 Flat table dipecah menjadi 1 fact table dan 3 dimension table di Power Query, lalu dihubungkan lewat relationship one-to-many di Power Pivot.
 
-```mermaid
-erDiagram
-    Dim_Department ||--o{ Fact_Employee : DepartmentID
-    Dim_JobRole ||--o{ Fact_Employee : JobRoleID
-    Dim_EducationField ||--o{ Fact_Employee : EducationFieldID
+<img width="642" height="867" alt="image" src="https://github.com/user-attachments/assets/063d67b9-16ab-4eda-a88a-d2a6ba3dd6bb" />
 
-    Dim_Department {
-        int DepartmentID PK
-        text Department
-    }
-    Dim_JobRole {
-        int JobRoleID PK
-        text JobRole
-    }
-    Dim_EducationField {
-        int EducationFieldID PK
-        text EducationField
-    }
-    Fact_Employee {
-        int EmployeeNumber PK
-        int DepartmentID FK
-        int JobRoleID FK
-        int EducationFieldID FK
-        text Attrition
-        int Age
-        int MonthlyIncome
-        text OverTime
-        text MaritalStatus
-    }
-```
 
 **Alasan desain:**
 - Kolom dijadikan dimension table jika nilainya berulang, jumlah unique value cukup banyak, dan kemungkinan besar dipakai sebagai slicer (Department, JobRole, EducationField).
