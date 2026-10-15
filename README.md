@@ -10,9 +10,9 @@ Halo! Saya seorang Data Analyst. Repositori ini berisi kumpulan proyek analitik 
 * [👉 Lihat Detail Proyek & Dokumentasi](./olist-ecommerce-analytics)
 
 ---
-### 1. 👥 [HR Employee Attrition Analytics](./hr-attrition-analytics)
+### 1. 👥 [HR Employee Attrition Analytics](./hr-atrition-analytics)
 * **Tech Stack**: Excel (Power Query, Power Pivot, DAX, PivotTable)
 * **Focus**: Menganalisis 1.470 data karyawan untuk menemukan pola dan faktor yang berasosiasi dengan attrition (16,1%), mulai dari cleaning data mentah, pemodelan star schema, hingga dashboard interaktif dan rekomendasi retensi.
-* [👉 Lihat Detail Proyek & Dokumentasi](./hr-attrition-analytics)
+* [👉 Lihat Detail Proyek & Dokumentasi](./hr-atrition-analytics)
 
 ---
